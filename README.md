@@ -46,7 +46,7 @@
 
 1. 封装新闻滚动条  
 
-代码详解：[简书 http://www.jianshu.com/p/633b52e6d7a9](http://www.jianshu.com/p/633b52e6d7a9)、[博客 ]()
+代码详解：[简书 http://www.jianshu.com/p/633b52e6d7a9](http://www.jianshu.com/p/633b52e6d7a9)、[博客 https://custompbwaters.github.io/2016/02/20/封装思维/iOS封装思维1—新闻滚动条/](https://custompbwaters.github.io/2016/02/20/封装思维/iOS封装思维1—新闻滚动条/)
 
 效果图：  
 ![封装新闻滚动条.gif](http://upload-images.jianshu.io/upload_images/2230763-352aa142cc6cf27d.gif?imageMogr2/auto-orient/strip)
@@ -54,6 +54,7 @@
 
 
 
+2. 未完待续 
 **未完.............待续**
 
 **未完.............待续**
