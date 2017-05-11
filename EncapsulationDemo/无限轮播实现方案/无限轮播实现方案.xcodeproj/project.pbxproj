@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76F549B91EC324CA0042F385 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76F549B71EC324CA0042F385 /* Main.storyboard */; };
+		76F549BB1EC324CA0042F385 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76F549BA1EC324CA0042F385 /* Assets.xcassets */; };
+		76F549BE1EC324CA0042F385 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76F549BC1EC324CA0042F385 /* LaunchScreen.storyboard */; };
+		76F549C91EC324CA0042F385 /* ________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F549C81EC324CA0042F385 /* ________Tests.m */; };
+		76F549D41EC324CA0042F385 /* ________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F549D31EC324CA0042F385 /* ________UITests.m */; };
+		76F549FA1EC441ED0042F385 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F549F31EC441ED0042F385 /* ViewController.m */; };
+		76F549FB1EC441ED0042F385 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F549F81EC441ED0042F385 /* AppDelegate.m */; };
+		76F549FC1EC441ED0042F385 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F549F91EC441ED0042F385 /* main.m */; };
+		76F54A141EC4428E0042F385 /* LNPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F54A111EC4428E0042F385 /* LNPageControl.m */; };
+		76F54A151EC4428E0042F385 /* LNScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F54A131EC4428E0042F385 /* LNScrollView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		76F549C51EC324CA0042F385 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76F549A31EC324CA0042F385 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76F549AA1EC324CA0042F385;
+			remoteInfo = "无限轮播实现方案";
+		};
+		76F549D01EC324CA0042F385 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76F549A31EC324CA0042F385 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76F549AA1EC324CA0042F385;
+			remoteInfo = "无限轮播实现方案";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		76F549AB1EC324CA0042F385 /* 无限轮播实现方案.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "无限轮播实现方案.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76F549B81EC324CA0042F385 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		76F549BA1EC324CA0042F385 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76F549BD1EC324CA0042F385 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		76F549BF1EC324CA0042F385 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76F549C41EC324CA0042F385 /* 无限轮播实现方案Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "无限轮播实现方案Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76F549C81EC324CA0042F385 /* ________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________Tests.m"; sourceTree = "<group>"; };
+		76F549CA1EC324CA0042F385 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76F549CF1EC324CA0042F385 /* 无限轮播实现方案UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "无限轮播实现方案UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76F549D31EC324CA0042F385 /* ________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________UITests.m"; sourceTree = "<group>"; };
+		76F549D51EC324CA0042F385 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76F549F21EC441ED0042F385 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		76F549F31EC441ED0042F385 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		76F549F71EC441ED0042F385 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		76F549F81EC441ED0042F385 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		76F549F91EC441ED0042F385 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		76F54A101EC4428E0042F385 /* LNPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNPageControl.h; sourceTree = "<group>"; };
+		76F54A111EC4428E0042F385 /* LNPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNPageControl.m; sourceTree = "<group>"; };
+		76F54A121EC4428E0042F385 /* LNScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNScrollView.h; sourceTree = "<group>"; };
+		76F54A131EC4428E0042F385 /* LNScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNScrollView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76F549A81EC324CA0042F385 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76F549C11EC324CA0042F385 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76F549CC1EC324CA0042F385 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76F549A21EC324CA0042F385 = {
+			isa = PBXGroup;
+			children = (
+				76F549AD1EC324CA0042F385 /* 无限轮播实现方案 */,
+				76F549C71EC324CA0042F385 /* 无限轮播实现方案Tests */,
+				76F549D21EC324CA0042F385 /* 无限轮播实现方案UITests */,
+				76F549AC1EC324CA0042F385 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76F549AC1EC324CA0042F385 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76F549AB1EC324CA0042F385 /* 无限轮播实现方案.app */,
+				76F549C41EC324CA0042F385 /* 无限轮播实现方案Tests.xctest */,
+				76F549CF1EC324CA0042F385 /* 无限轮播实现方案UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76F549AD1EC324CA0042F385 /* 无限轮播实现方案 */ = {
+			isa = PBXGroup;
+			children = (
+				76F549F01EC441ED0042F385 /* Classes */,
+				76F549F61EC441ED0042F385 /* Other */,
+				76F549B71EC324CA0042F385 /* Main.storyboard */,
+				76F549BA1EC324CA0042F385 /* Assets.xcassets */,
+				76F549BC1EC324CA0042F385 /* LaunchScreen.storyboard */,
+				76F549BF1EC324CA0042F385 /* Info.plist */,
+				76F549AE1EC324CA0042F385 /* Supporting Files */,
+			);
+			path = "无限轮播实现方案";
+			sourceTree = "<group>";
+		};
+		76F549AE1EC324CA0042F385 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		76F549C71EC324CA0042F385 /* 无限轮播实现方案Tests */ = {
+			isa = PBXGroup;
+			children = (
+				76F549C81EC324CA0042F385 /* ________Tests.m */,
+				76F549CA1EC324CA0042F385 /* Info.plist */,
+			);
+			path = "无限轮播实现方案Tests";
+			sourceTree = "<group>";
+		};
+		76F549D21EC324CA0042F385 /* 无限轮播实现方案UITests */ = {
+			isa = PBXGroup;
+			children = (
+				76F549D31EC324CA0042F385 /* ________UITests.m */,
+				76F549D51EC324CA0042F385 /* Info.plist */,
+			);
+			path = "无限轮播实现方案UITests";
+			sourceTree = "<group>";
+		};
+		76F549F01EC441ED0042F385 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				76F549F11EC441ED0042F385 /* Controller */,
+				76F549F51EC441ED0042F385 /* View */,
+				76F549F41EC441ED0042F385 /* Model */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		76F549F11EC441ED0042F385 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				76F549F21EC441ED0042F385 /* ViewController.h */,
+				76F549F31EC441ED0042F385 /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		76F549F41EC441ED0042F385 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		76F549F51EC441ED0042F385 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				76F54A0F1EC4428E0042F385 /* LNScrollView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		76F549F61EC441ED0042F385 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				76F549F71EC441ED0042F385 /* AppDelegate.h */,
+				76F549F81EC441ED0042F385 /* AppDelegate.m */,
+				76F549F91EC441ED0042F385 /* main.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		76F54A0F1EC4428E0042F385 /* LNScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				76F54A101EC4428E0042F385 /* LNPageControl.h */,
+				76F54A111EC4428E0042F385 /* LNPageControl.m */,
+				76F54A121EC4428E0042F385 /* LNScrollView.h */,
+				76F54A131EC4428E0042F385 /* LNScrollView.m */,
+			);
+			path = LNScrollView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76F549AA1EC324CA0042F385 /* 无限轮播实现方案 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76F549D81EC324CA0042F385 /* Build configuration list for PBXNativeTarget "无限轮播实现方案" */;
+			buildPhases = (
+				76F549A71EC324CA0042F385 /* Sources */,
+				76F549A81EC324CA0042F385 /* Frameworks */,
+				76F549A91EC324CA0042F385 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "无限轮播实现方案";
+			productName = "无限轮播实现方案";
+			productReference = 76F549AB1EC324CA0042F385 /* 无限轮播实现方案.app */;
+			productType = "com.apple.product-type.application";
+		};
+		76F549C31EC324CA0042F385 /* 无限轮播实现方案Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76F549DB1EC324CA0042F385 /* Build configuration list for PBXNativeTarget "无限轮播实现方案Tests" */;
+			buildPhases = (
+				76F549C01EC324CA0042F385 /* Sources */,
+				76F549C11EC324CA0042F385 /* Frameworks */,
+				76F549C21EC324CA0042F385 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76F549C61EC324CA0042F385 /* PBXTargetDependency */,
+			);
+			name = "无限轮播实现方案Tests";
+			productName = "无限轮播实现方案Tests";
+			productReference = 76F549C41EC324CA0042F385 /* 无限轮播实现方案Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		76F549CE1EC324CA0042F385 /* 无限轮播实现方案UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76F549DE1EC324CA0042F385 /* Build configuration list for PBXNativeTarget "无限轮播实现方案UITests" */;
+			buildPhases = (
+				76F549CB1EC324CA0042F385 /* Sources */,
+				76F549CC1EC324CA0042F385 /* Frameworks */,
+				76F549CD1EC324CA0042F385 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76F549D11EC324CA0042F385 /* PBXTargetDependency */,
+			);
+			name = "无限轮播实现方案UITests";
+			productName = "无限轮播实现方案UITests";
+			productReference = 76F549CF1EC324CA0042F385 /* 无限轮播实现方案UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76F549A31EC324CA0042F385 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Learning point";
+				TargetAttributes = {
+					76F549AA1EC324CA0042F385 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					76F549C31EC324CA0042F385 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 76F549AA1EC324CA0042F385;
+					};
+					76F549CE1EC324CA0042F385 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 76F549AA1EC324CA0042F385;
+					};
+				};
+			};
+			buildConfigurationList = 76F549A61EC324CA0042F385 /* Build configuration list for PBXProject "无限轮播实现方案" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76F549A21EC324CA0042F385;
+			productRefGroup = 76F549AC1EC324CA0042F385 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76F549AA1EC324CA0042F385 /* 无限轮播实现方案 */,
+				76F549C31EC324CA0042F385 /* 无限轮播实现方案Tests */,
+				76F549CE1EC324CA0042F385 /* 无限轮播实现方案UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76F549A91EC324CA0042F385 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76F549BE1EC324CA0042F385 /* LaunchScreen.storyboard in Resources */,
+				76F549BB1EC324CA0042F385 /* Assets.xcassets in Resources */,
+				76F549B91EC324CA0042F385 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76F549C21EC324CA0042F385 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76F549CD1EC324CA0042F385 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76F549A71EC324CA0042F385 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76F549FB1EC441ED0042F385 /* AppDelegate.m in Sources */,
+				76F549FC1EC441ED0042F385 /* main.m in Sources */,
+				76F54A151EC4428E0042F385 /* LNScrollView.m in Sources */,
+				76F54A141EC4428E0042F385 /* LNPageControl.m in Sources */,
+				76F549FA1EC441ED0042F385 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76F549C01EC324CA0042F385 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76F549C91EC324CA0042F385 /* ________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76F549CB1EC324CA0042F385 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76F549D41EC324CA0042F385 /* ________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76F549C61EC324CA0042F385 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76F549AA1EC324CA0042F385 /* 无限轮播实现方案 */;
+			targetProxy = 76F549C51EC324CA0042F385 /* PBXContainerItemProxy */;
+		};
+		76F549D11EC324CA0042F385 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76F549AA1EC324CA0042F385 /* 无限轮播实现方案 */;
+			targetProxy = 76F549D01EC324CA0042F385 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		76F549B71EC324CA0042F385 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76F549B81EC324CA0042F385 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		76F549BC1EC324CA0042F385 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76F549BD1EC324CA0042F385 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76F549D61EC324CA0042F385 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		76F549D71EC324CA0042F385 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76F549D91EC324CA0042F385 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "无限轮播实现方案/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LN.--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		76F549DA1EC324CA0042F385 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "无限轮播实现方案/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LN.--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		76F549DC1EC324CA0042F385 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "无限轮播实现方案Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LN.--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/无限轮播实现方案.app/无限轮播实现方案";
+			};
+			name = Debug;
+		};
+		76F549DD1EC324CA0042F385 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "无限轮播实现方案Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LN.--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/无限轮播实现方案.app/无限轮播实现方案";
+			};
+			name = Release;
+		};
+		76F549DF1EC324CA0042F385 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "无限轮播实现方案UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LN.--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "无限轮播实现方案";
+			};
+			name = Debug;
+		};
+		76F549E01EC324CA0042F385 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "无限轮播实现方案UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LN.--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "无限轮播实现方案";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76F549A61EC324CA0042F385 /* Build configuration list for PBXProject "无限轮播实现方案" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76F549D61EC324CA0042F385 /* Debug */,
+				76F549D71EC324CA0042F385 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76F549D81EC324CA0042F385 /* Build configuration list for PBXNativeTarget "无限轮播实现方案" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76F549D91EC324CA0042F385 /* Debug */,
+				76F549DA1EC324CA0042F385 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76F549DB1EC324CA0042F385 /* Build configuration list for PBXNativeTarget "无限轮播实现方案Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76F549DC1EC324CA0042F385 /* Debug */,
+				76F549DD1EC324CA0042F385 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76F549DE1EC324CA0042F385 /* Build configuration list for PBXNativeTarget "无限轮播实现方案UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76F549DF1EC324CA0042F385 /* Debug */,
+				76F549E01EC324CA0042F385 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76F549A31EC324CA0042F385 /* Project object */;
+}
