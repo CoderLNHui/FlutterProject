@@ -56,7 +56,7 @@
 
 2.循环利用tableView
 
-代码详解：[http://www.jianshu.com/p/d9c5db1709c8)、[博客 ]()
+代码详解：http://www.jianshu.com/p/d9c5db1709c8)、[博客 ]()
 
 效果图：
 
@@ -66,7 +66,7 @@
 
 3.无限轮播实现（3张 || 2张）
 
-代码详解：[http://www.jianshu.com/p/d9c5db1709c8)、[博客 ]()
+代码详解：http://www.jianshu.com/p/d9c5db1709c8)、[博客 ]()
 
 
 效果图：
