@@ -56,7 +56,7 @@
 
 2.循环利用tableView
 
-代码详解：http://www.jianshu.com/p/d9c5db1709c8)、[博客 ]()
+代码详解：http://www.jianshu.com/p/d9c5db1709c8、[博客 ]()
 
 效果图：
 
@@ -66,7 +66,7 @@
 
 3.无限轮播实现（3张 || 2张）
 
-代码详解：http://www.jianshu.com/p/d9c5db1709c8)、[博客 ]()
+代码详解：http://www.jianshu.com/p/d9c5db1709c8、[博客 ]()
 
 
 效果图：
@@ -74,6 +74,15 @@
 ![无限轮播.gif](http://upload-images.jianshu.io/upload_images/2230763-b350042656f41294.gif?imageMogr2/auto-orient/strip)
 
 
+
+4.Masonry使用总结
+
+代码详解：http://www.jianshu.com/p/0a1655f93410、[博客 ]()
+
+效果图：
+
+
+![Masonry常用效果图.gif](http://upload-images.jianshu.io/upload_images/2230763-4565ab5938e96b5c.gif?imageMogr2/auto-orient/strip)
 
 
 
