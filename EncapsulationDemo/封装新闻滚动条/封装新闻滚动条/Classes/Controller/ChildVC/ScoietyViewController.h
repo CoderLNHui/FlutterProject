@@ -1,9 +1,9 @@
 //
 //  ScoietyViewController.h
-//  封装新闻滚动条
+//  ☕️（https://github.com/CustomPBWaters）
 //
-//  Created by LN on 16/3/25.
-//  Copyright © 2016年 Learning point. All rights reserved.
+//  Created by 【Plain Boiled Water ln】 on 16/-/-.
+//  Copyright © 2016年（https://custompbwaters.github.io）All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

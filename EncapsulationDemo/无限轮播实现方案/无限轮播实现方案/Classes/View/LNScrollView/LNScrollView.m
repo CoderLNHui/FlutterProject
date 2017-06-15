@@ -1,9 +1,10 @@
 //
 //  LNScrollView.m
-//  UIScrollView Learning
+//  ☕️（https://github.com/CustomPBWaters）
 //
-//  Created by LN on 16/8/2.
-//  Copyright © 2016年 Learning point. All rights reserved.
+//  Created by 【Plain Boiled Water ln】 on 16/-/-.
+//  Copyright © 2016年（https://custompbwaters.github.io）All rights reserved.
+//
 /**
  ScrollView循环滚动轮播原理:
  1.三张图片:left cneter right,始终显示中间一张

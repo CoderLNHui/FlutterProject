@@ -1,10 +1,11 @@
 //
 //  LNTopicCollectionViewCell.h
+//  ☕️（https://github.com/CustomPBWaters）
+//
+//  Created by 【Plain Boiled Water ln】 on 16/-/-.
+//  Copyright © 2016年（https://custompbwaters.github.io）All rights reserved.
+//
 //  循环利用tableView
-//
-//  Created by LN on 17/5/11.
-//  Copyright © 2017年 Learning point. All rights reserved.
-//
 
 #import <UIKit/UIKit.h>
 

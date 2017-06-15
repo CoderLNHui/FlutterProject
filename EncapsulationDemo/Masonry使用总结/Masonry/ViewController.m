@@ -1,8 +1,8 @@
 //
 //  ViewController.m
-//  Masonry（https://github.com/CustomPBWaters）
+//  ☕️（https://github.com/CustomPBWaters）
 //
-//  Created by 白开水ln on 16/-/-.
+//  Created by 【Plain Boiled Water ln】 on 16/-/-.
 //  Copyright © 2016年（https://custompbwaters.github.io）All rights reserved.
 //
 
@@ -11,7 +11,6 @@
 #define MAS_SHORTHAND // 省略mas_前缀
 #define MAS_SHORTHAND_GLOBALS // equalTo函数接收基本数据类型
 #import "Masonry.h" //注意：这两个宏必须要在添加Masonry头文件之前导入进去才有效。
-
 
 /**
  1.edges
@@ -128,6 +127,7 @@
  它同时有对蓝色View有个最高的优先级约束（make.left.mas_equalTo(self.blueView.mas_right).with.offset(40);）。
  当点击屏幕是，我将蓝色View移除，此时第二优先级就是生效。
  */
+
 
 
 //--------------------------- 【Masonry的更新约束 mas_updateConstraints】 ------------------------------//

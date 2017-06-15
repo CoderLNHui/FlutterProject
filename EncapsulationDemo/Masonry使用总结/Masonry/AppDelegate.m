@@ -1,8 +1,8 @@
 //
 //  AppDelegate.m
-//  Masonry（https://github.com/CustomPBWaters）
+//  ☕️（https://github.com/CustomPBWaters）
 //
-//  Created by 白开水ln on 16/-/-.
+//  Created by 【Plain Boiled Water ln】 on 16/-/-.
 //  Copyright © 2016年（https://custompbwaters.github.io）All rights reserved.
 //
 
