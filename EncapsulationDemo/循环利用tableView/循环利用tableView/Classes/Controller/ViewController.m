@@ -79,6 +79,7 @@ static NSString * const cellID = @"LNTopicCollectionViewCell";
 #pragma mark - UICollectionViewDelegate
 - (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView
 {
+    // 这里根据索引判断是哪个模块，判断哪个需要发送请求.
     //NSLog(@"%zd", (int)(scrollView.contentOffset.x / scrollView.frame.size.width));
 }
 
@@ -99,8 +100,6 @@ static NSString * const cellID = @"LNTopicCollectionViewCell";
  
  */
 @end
-
-
 
 
 
