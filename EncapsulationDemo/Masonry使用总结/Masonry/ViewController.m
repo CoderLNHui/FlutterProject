@@ -39,9 +39,9 @@
 //    [self testView1];
 //    [self testView2];
 //    [self testView3];
-//    [self testView4];
+    [self testView4];
 //    [self testView5];
-    [self testView6];
+//    [self testView6];
    
 }
 

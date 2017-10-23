@@ -20,7 +20,7 @@
 
 1. 新闻滚动条  
 
-详解：[简书](http://www.jianshu.com/p/633b52e6d7a9)、[博客 ](https://custompbwaters.github.io/2016/02/20/封装思维/iOS封装思维1—新闻滚动条/)
+详解：[博文](https://custompbwaters.github.io/2016/02/20/封装思维/iOS封装思维1—新闻滚动条/)
 
 效果图：  
 ![封装新闻滚动条.gif](http://upload-images.jianshu.io/upload_images/2230763-352aa142cc6cf27d.gif?imageMogr2/auto-orient/strip)
@@ -29,7 +29,7 @@
 
 2.循环利用tableView
 
-详解：[简书](http://www.jianshu.com/p/d9c5db1709c8)、[博客 ]()
+详解：[博文](http://upload-images.jianshu.io/upload_images/2230763-93b83d5b7a7b0a49.gif?imageMogr2/auto-orient/strip)
 
 效果图：
 
@@ -39,7 +39,7 @@
 
 3.无限轮播实现（3张 || 2张）
 
-详解：[简书](http://www.jianshu.com/p/d9c5db1709c8)、[博客 ]()
+详解：[博文](http://upload-images.jianshu.io/upload_images/2230763-93b83d5b7a7b0a49.gif?imageMogr2/auto-orient/strip)
 
 
 效果图：
@@ -50,7 +50,7 @@
 
 4.Masonry使用总结
 
-详解：[简书](http://www.jianshu.com/p/0a1655f93410)、[博客 ]()
+详解：[博文](http://upload-images.jianshu.io/upload_images/2230763-93b83d5b7a7b0a49.gif?imageMogr2/auto-orient/strip)
 
 效果图：
 
@@ -62,7 +62,7 @@
 
 5.基于AVPlayer自定义播放器
 
-详解：[简书](http://www.jianshu.com/u/fd745d76c816)、[博客 ]()
+详解：[博文](http://upload-images.jianshu.io/upload_images/2230763-93b83d5b7a7b0a49.gif?imageMogr2/auto-orient/strip)
 
 效果图：
 
@@ -72,7 +72,21 @@
 
 
 
-6. 未完待续   
+
+6.给文本Label添加点击事件Block & Delegate 回调
+
+详解：[博文](http://upload-images.jianshu.io/upload_images/2230763-93b83d5b7a7b0a49.gif?imageMogr2/auto-orient/strip)
+
+效果图：
+
+
+![LNAttributeTapLabel.gif](http://upload-images.jianshu.io/upload_images/2230763-1d8ed8cc36a11e6e.gif?imageMogr2/auto-orient/strip)
+
+
+
+
+
+7. 未完待续   
 
 **未完.............待续**
 
@@ -83,9 +97,7 @@
 
 
 
-
-
-
+ 
 
 
 
