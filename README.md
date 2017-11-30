@@ -85,14 +85,23 @@
 
 
 
+7.SQLite3
 
-7. 未完待续   
+详解：[博文]( )
+
+效果图：
+
+
+![SQLite3.gif](http://upload-images.jianshu.io/upload_images/2230763-96e2bebc2cbf811f.gif?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+
+
+
+
+8. 未完待续   
 
 **未完.............待续**
-
-**未完.............待续**
-
-**未完.............待续**
+ 
 
 
 
