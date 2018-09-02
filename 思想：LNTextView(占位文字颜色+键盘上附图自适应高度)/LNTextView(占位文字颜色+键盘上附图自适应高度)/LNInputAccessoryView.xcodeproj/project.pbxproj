@@ -1,0 +1,678 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7603608F1F9D7AD000735F7A /* NSString+String.m in Sources */ = {isa = PBXBuildFile; fileRef = 7603608E1F9D7AD000735F7A /* NSString+String.m */; };
+		763932991FA9A985001B39EF /* LNBasicUseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 763932981FA9A984001B39EF /* LNBasicUseViewController.m */; };
+		764D1FB91F9990010002C0BA /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 764D1FB81F9990010002C0BA /* UIView+Frame.m */; };
+		768DDA2E1F98B360002AB07D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 768DDA2D1F98B360002AB07D /* AppDelegate.m */; };
+		768DDA311F98B360002AB07D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 768DDA301F98B360002AB07D /* ViewController.m */; };
+		768DDA341F98B360002AB07D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 768DDA321F98B360002AB07D /* Main.storyboard */; };
+		768DDA361F98B360002AB07D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 768DDA351F98B360002AB07D /* Assets.xcassets */; };
+		768DDA391F98B360002AB07D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 768DDA371F98B360002AB07D /* LaunchScreen.storyboard */; };
+		768DDA3C1F98B360002AB07D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 768DDA3B1F98B360002AB07D /* main.m */; };
+		768DDA461F98B360002AB07D /* LNInputAccessoryViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 768DDA451F98B360002AB07D /* LNInputAccessoryViewTests.m */; };
+		768DDA511F98B360002AB07D /* LNInputAccessoryViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 768DDA501F98B360002AB07D /* LNInputAccessoryViewUITests.m */; };
+		76E010E61FAB1B840098D7E6 /* LNInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E010E51FAB1B200098D7E6 /* LNInputView.m */; };
+		ABEF5152C2373AFEFEDDFBE2 /* libPods-LNInputAccessoryView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 462E2DA15A0D834A769EF38D /* libPods-LNInputAccessoryView.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		768DDA421F98B360002AB07D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 768DDA211F98B360002AB07D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 768DDA281F98B360002AB07D;
+			remoteInfo = LNInputAccessoryView;
+		};
+		768DDA4D1F98B360002AB07D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 768DDA211F98B360002AB07D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 768DDA281F98B360002AB07D;
+			remoteInfo = LNInputAccessoryView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		364D08F0F81AA860E4BC4357 /* Pods-LNInputAccessoryView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LNInputAccessoryView.release.xcconfig"; path = "Pods/Target Support Files/Pods-LNInputAccessoryView/Pods-LNInputAccessoryView.release.xcconfig"; sourceTree = "<group>"; };
+		462E2DA15A0D834A769EF38D /* libPods-LNInputAccessoryView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LNInputAccessoryView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48C26068A37C0DA53A6DF227 /* Pods-LNInputAccessoryView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LNInputAccessoryView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LNInputAccessoryView/Pods-LNInputAccessoryView.debug.xcconfig"; sourceTree = "<group>"; };
+		7603608D1F9D7AD000735F7A /* NSString+String.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+String.h"; sourceTree = "<group>"; };
+		7603608E1F9D7AD000735F7A /* NSString+String.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+String.m"; sourceTree = "<group>"; };
+		763932971FA9A984001B39EF /* LNBasicUseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNBasicUseViewController.h; sourceTree = "<group>"; };
+		763932981FA9A984001B39EF /* LNBasicUseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNBasicUseViewController.m; sourceTree = "<group>"; };
+		764D1FB71F9990010002C0BA /* UIView+Frame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		764D1FB81F9990010002C0BA /* UIView+Frame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		768DDA291F98B360002AB07D /* LNInputAccessoryView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LNInputAccessoryView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		768DDA2C1F98B360002AB07D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		768DDA2D1F98B360002AB07D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		768DDA2F1F98B360002AB07D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		768DDA301F98B360002AB07D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		768DDA331F98B360002AB07D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		768DDA351F98B360002AB07D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		768DDA381F98B360002AB07D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		768DDA3A1F98B360002AB07D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		768DDA3B1F98B360002AB07D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		768DDA411F98B360002AB07D /* LNInputAccessoryViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LNInputAccessoryViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		768DDA451F98B360002AB07D /* LNInputAccessoryViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNInputAccessoryViewTests.m; sourceTree = "<group>"; };
+		768DDA471F98B360002AB07D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		768DDA4C1F98B360002AB07D /* LNInputAccessoryViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LNInputAccessoryViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		768DDA501F98B360002AB07D /* LNInputAccessoryViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNInputAccessoryViewUITests.m; sourceTree = "<group>"; };
+		768DDA521F98B360002AB07D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76E010E41FAB1B200098D7E6 /* LNInputView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNInputView.h; sourceTree = "<group>"; };
+		76E010E51FAB1B200098D7E6 /* LNInputView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNInputView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		768DDA261F98B360002AB07D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABEF5152C2373AFEFEDDFBE2 /* libPods-LNInputAccessoryView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		768DDA3E1F98B360002AB07D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		768DDA491F98B360002AB07D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2030752F7EE51664A13C80EE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				48C26068A37C0DA53A6DF227 /* Pods-LNInputAccessoryView.debug.xcconfig */,
+				364D08F0F81AA860E4BC4357 /* Pods-LNInputAccessoryView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		60893249BAC19773BB99C581 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				462E2DA15A0D834A769EF38D /* libPods-LNInputAccessoryView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		763932961FA9A984001B39EF /* UITextView属性和方法基本使用 */ = {
+			isa = PBXGroup;
+			children = (
+				763932971FA9A984001B39EF /* LNBasicUseViewController.h */,
+				763932981FA9A984001B39EF /* LNBasicUseViewController.m */,
+			);
+			path = "UITextView属性和方法基本使用";
+			sourceTree = "<group>";
+		};
+		768DDA201F98B360002AB07D = {
+			isa = PBXGroup;
+			children = (
+				768DDA2B1F98B360002AB07D /* LNInputAccessoryView */,
+				768DDA441F98B360002AB07D /* LNInputAccessoryViewTests */,
+				768DDA4F1F98B360002AB07D /* LNInputAccessoryViewUITests */,
+				768DDA2A1F98B360002AB07D /* Products */,
+				2030752F7EE51664A13C80EE /* Pods */,
+				60893249BAC19773BB99C581 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		768DDA2A1F98B360002AB07D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				768DDA291F98B360002AB07D /* LNInputAccessoryView.app */,
+				768DDA411F98B360002AB07D /* LNInputAccessoryViewTests.xctest */,
+				768DDA4C1F98B360002AB07D /* LNInputAccessoryViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		768DDA2B1F98B360002AB07D /* LNInputAccessoryView */ = {
+			isa = PBXGroup;
+			children = (
+				768DDA2C1F98B360002AB07D /* AppDelegate.h */,
+				768DDA2D1F98B360002AB07D /* AppDelegate.m */,
+				768DDA2F1F98B360002AB07D /* ViewController.h */,
+				768DDA301F98B360002AB07D /* ViewController.m */,
+				768DDA321F98B360002AB07D /* Main.storyboard */,
+				768DDA351F98B360002AB07D /* Assets.xcassets */,
+				768DDA371F98B360002AB07D /* LaunchScreen.storyboard */,
+				768DDA3A1F98B360002AB07D /* Info.plist */,
+				768DDA3B1F98B360002AB07D /* main.m */,
+				764D1FB71F9990010002C0BA /* UIView+Frame.h */,
+				764D1FB81F9990010002C0BA /* UIView+Frame.m */,
+				7603608D1F9D7AD000735F7A /* NSString+String.h */,
+				7603608E1F9D7AD000735F7A /* NSString+String.m */,
+				76E010E31FAB1B200098D7E6 /* UITextView占位文字颜色&自适应高度 */,
+				763932961FA9A984001B39EF /* UITextView属性和方法基本使用 */,
+			);
+			path = LNInputAccessoryView;
+			sourceTree = "<group>";
+		};
+		768DDA441F98B360002AB07D /* LNInputAccessoryViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				768DDA451F98B360002AB07D /* LNInputAccessoryViewTests.m */,
+				768DDA471F98B360002AB07D /* Info.plist */,
+			);
+			path = LNInputAccessoryViewTests;
+			sourceTree = "<group>";
+		};
+		768DDA4F1F98B360002AB07D /* LNInputAccessoryViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				768DDA501F98B360002AB07D /* LNInputAccessoryViewUITests.m */,
+				768DDA521F98B360002AB07D /* Info.plist */,
+			);
+			path = LNInputAccessoryViewUITests;
+			sourceTree = "<group>";
+		};
+		76E010E31FAB1B200098D7E6 /* UITextView占位文字颜色&自适应高度 */ = {
+			isa = PBXGroup;
+			children = (
+				76E010E41FAB1B200098D7E6 /* LNInputView.h */,
+				76E010E51FAB1B200098D7E6 /* LNInputView.m */,
+			);
+			path = "UITextView占位文字颜色&自适应高度";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		768DDA281F98B360002AB07D /* LNInputAccessoryView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 768DDA551F98B360002AB07D /* Build configuration list for PBXNativeTarget "LNInputAccessoryView" */;
+			buildPhases = (
+				A7C75DEBBCB724E4D37DC521 /* [CP] Check Pods Manifest.lock */,
+				768DDA251F98B360002AB07D /* Sources */,
+				768DDA261F98B360002AB07D /* Frameworks */,
+				768DDA271F98B360002AB07D /* Resources */,
+				2B955F2892B75C0575F27F88 /* [CP] Embed Pods Frameworks */,
+				FA29AE4B4CE3E9E40F64E389 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LNInputAccessoryView;
+			productName = LNInputAccessoryView;
+			productReference = 768DDA291F98B360002AB07D /* LNInputAccessoryView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		768DDA401F98B360002AB07D /* LNInputAccessoryViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 768DDA581F98B360002AB07D /* Build configuration list for PBXNativeTarget "LNInputAccessoryViewTests" */;
+			buildPhases = (
+				768DDA3D1F98B360002AB07D /* Sources */,
+				768DDA3E1F98B360002AB07D /* Frameworks */,
+				768DDA3F1F98B360002AB07D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				768DDA431F98B360002AB07D /* PBXTargetDependency */,
+			);
+			name = LNInputAccessoryViewTests;
+			productName = LNInputAccessoryViewTests;
+			productReference = 768DDA411F98B360002AB07D /* LNInputAccessoryViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		768DDA4B1F98B360002AB07D /* LNInputAccessoryViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 768DDA5B1F98B360002AB07D /* Build configuration list for PBXNativeTarget "LNInputAccessoryViewUITests" */;
+			buildPhases = (
+				768DDA481F98B360002AB07D /* Sources */,
+				768DDA491F98B360002AB07D /* Frameworks */,
+				768DDA4A1F98B360002AB07D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				768DDA4E1F98B360002AB07D /* PBXTargetDependency */,
+			);
+			name = LNInputAccessoryViewUITests;
+			productName = LNInputAccessoryViewUITests;
+			productReference = 768DDA4C1F98B360002AB07D /* LNInputAccessoryViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		768DDA211F98B360002AB07D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = WechatCodeidea;
+				TargetAttributes = {
+					768DDA281F98B360002AB07D = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					768DDA401F98B360002AB07D = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 768DDA281F98B360002AB07D;
+					};
+					768DDA4B1F98B360002AB07D = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 768DDA281F98B360002AB07D;
+					};
+				};
+			};
+			buildConfigurationList = 768DDA241F98B360002AB07D /* Build configuration list for PBXProject "LNInputAccessoryView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 768DDA201F98B360002AB07D;
+			productRefGroup = 768DDA2A1F98B360002AB07D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				768DDA281F98B360002AB07D /* LNInputAccessoryView */,
+				768DDA401F98B360002AB07D /* LNInputAccessoryViewTests */,
+				768DDA4B1F98B360002AB07D /* LNInputAccessoryViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		768DDA271F98B360002AB07D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				768DDA391F98B360002AB07D /* LaunchScreen.storyboard in Resources */,
+				768DDA361F98B360002AB07D /* Assets.xcassets in Resources */,
+				768DDA341F98B360002AB07D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		768DDA3F1F98B360002AB07D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		768DDA4A1F98B360002AB07D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B955F2892B75C0575F27F88 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LNInputAccessoryView/Pods-LNInputAccessoryView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7C75DEBBCB724E4D37DC521 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FA29AE4B4CE3E9E40F64E389 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LNInputAccessoryView/Pods-LNInputAccessoryView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		768DDA251F98B360002AB07D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76E010E61FAB1B840098D7E6 /* LNInputView.m in Sources */,
+				764D1FB91F9990010002C0BA /* UIView+Frame.m in Sources */,
+				768DDA311F98B360002AB07D /* ViewController.m in Sources */,
+				768DDA3C1F98B360002AB07D /* main.m in Sources */,
+				7603608F1F9D7AD000735F7A /* NSString+String.m in Sources */,
+				768DDA2E1F98B360002AB07D /* AppDelegate.m in Sources */,
+				763932991FA9A985001B39EF /* LNBasicUseViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		768DDA3D1F98B360002AB07D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				768DDA461F98B360002AB07D /* LNInputAccessoryViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		768DDA481F98B360002AB07D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				768DDA511F98B360002AB07D /* LNInputAccessoryViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		768DDA431F98B360002AB07D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 768DDA281F98B360002AB07D /* LNInputAccessoryView */;
+			targetProxy = 768DDA421F98B360002AB07D /* PBXContainerItemProxy */;
+		};
+		768DDA4E1F98B360002AB07D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 768DDA281F98B360002AB07D /* LNInputAccessoryView */;
+			targetProxy = 768DDA4D1F98B360002AB07D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		768DDA321F98B360002AB07D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				768DDA331F98B360002AB07D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		768DDA371F98B360002AB07D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				768DDA381F98B360002AB07D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		768DDA531F98B360002AB07D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		768DDA541F98B360002AB07D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		768DDA561F98B360002AB07D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48C26068A37C0DA53A6DF227 /* Pods-LNInputAccessoryView.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S4L76KBH9Z;
+				INFOPLIST_FILE = LNInputAccessoryView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ln615;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		768DDA571F98B360002AB07D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 364D08F0F81AA860E4BC4357 /* Pods-LNInputAccessoryView.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S4L76KBH9Z;
+				INFOPLIST_FILE = LNInputAccessoryView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ln615;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		768DDA591F98B360002AB07D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LNInputAccessoryViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WechatCodeidea.LNInputAccessoryViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LNInputAccessoryView.app/LNInputAccessoryView";
+			};
+			name = Debug;
+		};
+		768DDA5A1F98B360002AB07D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LNInputAccessoryViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WechatCodeidea.LNInputAccessoryViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LNInputAccessoryView.app/LNInputAccessoryView";
+			};
+			name = Release;
+		};
+		768DDA5C1F98B360002AB07D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LNInputAccessoryViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WechatCodeidea.LNInputAccessoryViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LNInputAccessoryView;
+			};
+			name = Debug;
+		};
+		768DDA5D1F98B360002AB07D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LNInputAccessoryViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WechatCodeidea.LNInputAccessoryViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LNInputAccessoryView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		768DDA241F98B360002AB07D /* Build configuration list for PBXProject "LNInputAccessoryView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				768DDA531F98B360002AB07D /* Debug */,
+				768DDA541F98B360002AB07D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		768DDA551F98B360002AB07D /* Build configuration list for PBXNativeTarget "LNInputAccessoryView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				768DDA561F98B360002AB07D /* Debug */,
+				768DDA571F98B360002AB07D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		768DDA581F98B360002AB07D /* Build configuration list for PBXNativeTarget "LNInputAccessoryViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				768DDA591F98B360002AB07D /* Debug */,
+				768DDA5A1F98B360002AB07D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		768DDA5B1F98B360002AB07D /* Build configuration list for PBXNativeTarget "LNInputAccessoryViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				768DDA5C1F98B360002AB07D /* Debug */,
+				768DDA5D1F98B360002AB07D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 768DDA211F98B360002AB07D /* Project object */;
+}
