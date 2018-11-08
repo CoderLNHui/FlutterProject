@@ -10,8 +10,6 @@
 		76F5497A1EC324CA0042F385 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76F549781EC324CA0042F385 /* Main.storyboard */; };
 		76F5497C1EC324CA0042F385 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76F5497B1EC324CA0042F385 /* Assets.xcassets */; };
 		76F5497F1EC324CA0042F385 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76F5497D1EC324CA0042F385 /* LaunchScreen.storyboard */; };
-		76F5498A1EC324CA0042F385 /* ____tableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F549891EC324CA0042F385 /* ____tableViewTests.m */; };
-		76F549951EC324CA0042F385 /* ____tableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F549941EC324CA0042F385 /* ____tableViewUITests.m */; };
 		76F54A0A1EC442780042F385 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F54A001EC442780042F385 /* ViewController.m */; };
 		76F54A0B1EC442780042F385 /* LNTopicCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F54A041EC442780042F385 /* LNTopicCollectionViewCell.m */; };
 		76F54A0C1EC442780042F385 /* LNTopicCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76F54A051EC442780042F385 /* LNTopicCollectionViewCell.xib */; };
@@ -43,11 +41,7 @@
 		76F5497E1EC324CA0042F385 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		76F549801EC324CA0042F385 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		76F549851EC324CA0042F385 /* 循环利用tableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "循环利用tableViewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		76F549891EC324CA0042F385 /* ____tableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____tableViewTests.m"; sourceTree = "<group>"; };
-		76F5498B1EC324CA0042F385 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		76F549901EC324CA0042F385 /* 循环利用tableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "循环利用tableViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		76F549941EC324CA0042F385 /* ____tableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____tableViewUITests.m"; sourceTree = "<group>"; };
-		76F549961EC324CA0042F385 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		76F549FF1EC442780042F385 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		76F54A001EC442780042F385 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		76F54A031EC442780042F385 /* LNTopicCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNTopicCollectionViewCell.h; sourceTree = "<group>"; };
@@ -87,8 +81,6 @@
 			isa = PBXGroup;
 			children = (
 				76F5496E1EC324CA0042F385 /* 循环利用tableView */,
-				76F549881EC324CA0042F385 /* 循环利用tableViewTests */,
-				76F549931EC324CA0042F385 /* 循环利用tableViewUITests */,
 				76F5496D1EC324CA0042F385 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -124,29 +116,10 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		76F549881EC324CA0042F385 /* 循环利用tableViewTests */ = {
-			isa = PBXGroup;
-			children = (
-				76F549891EC324CA0042F385 /* ____tableViewTests.m */,
-				76F5498B1EC324CA0042F385 /* Info.plist */,
-			);
-			path = "循环利用tableViewTests";
-			sourceTree = "<group>";
-		};
-		76F549931EC324CA0042F385 /* 循环利用tableViewUITests */ = {
-			isa = PBXGroup;
-			children = (
-				76F549941EC324CA0042F385 /* ____tableViewUITests.m */,
-				76F549961EC324CA0042F385 /* Info.plist */,
-			);
-			path = "循环利用tableViewUITests";
-			sourceTree = "<group>";
-		};
 		76F549FD1EC442780042F385 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
 				76F549FE1EC442780042F385 /* Controller */,
-				76F54A011EC442780042F385 /* Model */,
 				76F54A021EC442780042F385 /* View */,
 			);
 			path = Classes;
@@ -159,13 +132,6 @@
 				76F54A001EC442780042F385 /* ViewController.m */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		76F54A011EC442780042F385 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		76F54A021EC442780042F385 /* View */ = {
@@ -333,7 +299,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76F5498A1EC324CA0042F385 /* ____tableViewTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,7 +306,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76F549951EC324CA0042F385 /* ____tableViewUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

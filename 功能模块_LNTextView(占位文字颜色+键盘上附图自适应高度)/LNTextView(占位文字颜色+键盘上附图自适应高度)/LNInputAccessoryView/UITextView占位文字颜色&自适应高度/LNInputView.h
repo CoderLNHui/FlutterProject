@@ -131,14 +131,7 @@
 NSInteger numberLines = textView.contentSize.height / textView.font.lineHeight;
 
 4.
- [self sizeToFit];
-
- 
- 三目运算符：A ? B : C
- A为真 - B
- A为假 - C
- 
- 
+ [self sizeToFit]; 
 */
 
 

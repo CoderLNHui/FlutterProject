@@ -20,9 +20,9 @@
 		761A99892159B5D000DEFFCA /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 761A99762159B5D000DEFFCA /* MASConstraint.m */; };
 		761A998A2159B5D000DEFFCA /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 761A99772159B5D000DEFFCA /* MASViewConstraint.m */; };
 		761A998B2159B5D000DEFFCA /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 761A99782159B5D000DEFFCA /* MASViewAttribute.m */; };
-		761A998C2159B5D000DEFFCA /* LNPersonalDetailsPageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 761A997A2159B5D000DEFFCA /* LNPersonalDetailsPageVC.m */; };
 		761A998E2159B5D000DEFFCA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 761A997F2159B5D000DEFFCA /* main.m */; };
 		761A998F2159B5D000DEFFCA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 761A99802159B5D000DEFFCA /* AppDelegate.m */; };
+		764F8EDA21949E61002B55DA /* LNPersonalDetailsPageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 764F8ED821949E61002B55DA /* LNPersonalDetailsPageVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,11 +56,11 @@
 		761A99762159B5D000DEFFCA /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
 		761A99772159B5D000DEFFCA /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
 		761A99782159B5D000DEFFCA /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
-		761A997A2159B5D000DEFFCA /* LNPersonalDetailsPageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNPersonalDetailsPageVC.m; sourceTree = "<group>"; };
-		761A997B2159B5D000DEFFCA /* LNPersonalDetailsPageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNPersonalDetailsPageVC.h; sourceTree = "<group>"; };
 		761A997D2159B5D000DEFFCA /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		761A997F2159B5D000DEFFCA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		761A99802159B5D000DEFFCA /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		764F8ED821949E61002B55DA /* LNPersonalDetailsPageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNPersonalDetailsPageVC.m; sourceTree = "<group>"; };
+		764F8ED921949E61002B55DA /* LNPersonalDetailsPageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNPersonalDetailsPageVC.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				761A995E2159B5D000DEFFCA /* Category */,
-				761A99612159B5D000DEFFCA /* Masonry */,
-				761A99792159B5D000DEFFCA /* 功能模块 */,
+				764F8ED721949E61002B55DA /* LNPicturePullDown */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -152,23 +151,24 @@
 			path = Masonry;
 			sourceTree = "<group>";
 		};
-		761A99792159B5D000DEFFCA /* 功能模块 */ = {
-			isa = PBXGroup;
-			children = (
-				761A997B2159B5D000DEFFCA /* LNPersonalDetailsPageVC.h */,
-				761A997A2159B5D000DEFFCA /* LNPersonalDetailsPageVC.m */,
-			);
-			path = "功能模块";
-			sourceTree = "<group>";
-		};
 		761A997C2159B5D000DEFFCA /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				761A99612159B5D000DEFFCA /* Masonry */,
 				761A997D2159B5D000DEFFCA /* AppDelegate.h */,
 				761A99802159B5D000DEFFCA /* AppDelegate.m */,
 				761A997F2159B5D000DEFFCA /* main.m */,
 			);
 			path = Other;
+			sourceTree = "<group>";
+		};
+		764F8ED721949E61002B55DA /* LNPicturePullDown */ = {
+			isa = PBXGroup;
+			children = (
+				764F8ED921949E61002B55DA /* LNPersonalDetailsPageVC.h */,
+				764F8ED821949E61002B55DA /* LNPersonalDetailsPageVC.m */,
+			);
+			path = LNPicturePullDown;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,12 +241,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				764F8EDA21949E61002B55DA /* LNPersonalDetailsPageVC.m in Sources */,
 				761A998E2159B5D000DEFFCA /* main.m in Sources */,
 				761A998A2159B5D000DEFFCA /* MASViewConstraint.m in Sources */,
 				761A99892159B5D000DEFFCA /* MASConstraint.m in Sources */,
 				761A99822159B5D000DEFFCA /* UIImage+Image.m in Sources */,
 				761A99852159B5D000DEFFCA /* MASConstraintMaker.m in Sources */,
-				761A998C2159B5D000DEFFCA /* LNPersonalDetailsPageVC.m in Sources */,
 				761A998F2159B5D000DEFFCA /* AppDelegate.m in Sources */,
 				761A99872159B5D000DEFFCA /* NSArray+MASAdditions.m in Sources */,
 				761A998B2159B5D000DEFFCA /* MASViewAttribute.m in Sources */,

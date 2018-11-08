@@ -30,7 +30,7 @@
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardWillChangeFrame:) name:UIKeyboardWillChangeFrameNotification object:nil];
     
     // 设置文本框占位文字
-    _inputView.placeholder = @"小码哥 iOS培训 吖了个峥";
+    _inputView.placeholder = @"关注微众-不知名开发者";
     _inputView.placeholderColor = [UIColor redColor];
     
     // 监听文本框文字高度改变

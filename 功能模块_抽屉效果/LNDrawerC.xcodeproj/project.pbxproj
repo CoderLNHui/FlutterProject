@@ -10,13 +10,13 @@
 		76472CBD215B92880006405B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76472CBB215B92880006405B /* Main.storyboard */; };
 		76472CBF215B92890006405B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76472CBE215B92890006405B /* Assets.xcassets */; };
 		76472CC2215B92890006405B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76472CC0215B92890006405B /* LaunchScreen.storyboard */; };
-		76472CDF215B92F90006405B /* LNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76472CD5215B92F90006405B /* LNViewController.m */; };
-		76472CE0215B92F90006405B /* LNDrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76472CD8215B92F90006405B /* LNDrawerViewController.m */; };
-		76472CE1215B92F90006405B /* LNMainTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 76472CD9215B92F90006405B /* LNMainTableVC.m */; };
 		76472CE2215B92F90006405B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76472CDD215B92F90006405B /* main.m */; };
 		76472CE3215B92F90006405B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76472CDE215B92F90006405B /* AppDelegate.m */; };
-		76472CE6215B94E80006405B /* LNLeftTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 76472CE5215B94E80006405B /* LNLeftTableVC.m */; };
-		76472CE9215B94FC0006405B /* LNRightTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 76472CE8215B94FC0006405B /* LNRightTableVC.m */; };
+		764F8ED321949CE0002B55DA /* LNRightTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 764F8ECB21949CE0002B55DA /* LNRightTableVC.m */; };
+		764F8ED421949CE0002B55DA /* LNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 764F8ECD21949CE0002B55DA /* LNViewController.m */; };
+		764F8ED521949CE0002B55DA /* LNLeftTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 764F8ED021949CE0002B55DA /* LNLeftTableVC.m */; };
+		764F8ED621949CE0002B55DA /* LNMainTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 764F8ED121949CE0002B55DA /* LNMainTableVC.m */; };
+		76D7600221945EDD003BC3EC /* LNDrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D7600121945EDD003BC3EC /* LNDrawerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,19 +25,19 @@
 		76472CBE215B92890006405B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76472CC1215B92890006405B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		76472CC3215B92890006405B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		76472CD5215B92F90006405B /* LNViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNViewController.m; sourceTree = "<group>"; };
-		76472CD6215B92F90006405B /* LNMainTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNMainTableVC.h; sourceTree = "<group>"; };
-		76472CD7215B92F90006405B /* LNDrawerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNDrawerViewController.h; sourceTree = "<group>"; };
-		76472CD8215B92F90006405B /* LNDrawerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNDrawerViewController.m; sourceTree = "<group>"; };
-		76472CD9215B92F90006405B /* LNMainTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNMainTableVC.m; sourceTree = "<group>"; };
-		76472CDA215B92F90006405B /* LNViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNViewController.h; sourceTree = "<group>"; };
 		76472CDC215B92F90006405B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		76472CDD215B92F90006405B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		76472CDE215B92F90006405B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		76472CE4215B94E80006405B /* LNLeftTableVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNLeftTableVC.h; sourceTree = "<group>"; };
-		76472CE5215B94E80006405B /* LNLeftTableVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNLeftTableVC.m; sourceTree = "<group>"; };
-		76472CE7215B94FC0006405B /* LNRightTableVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNRightTableVC.h; sourceTree = "<group>"; };
-		76472CE8215B94FC0006405B /* LNRightTableVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNRightTableVC.m; sourceTree = "<group>"; };
+		764F8ECB21949CE0002B55DA /* LNRightTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNRightTableVC.m; sourceTree = "<group>"; };
+		764F8ECC21949CE0002B55DA /* LNLeftTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNLeftTableVC.h; sourceTree = "<group>"; };
+		764F8ECD21949CE0002B55DA /* LNViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNViewController.m; sourceTree = "<group>"; };
+		764F8ECE21949CE0002B55DA /* LNMainTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNMainTableVC.h; sourceTree = "<group>"; };
+		764F8ECF21949CE0002B55DA /* LNRightTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNRightTableVC.h; sourceTree = "<group>"; };
+		764F8ED021949CE0002B55DA /* LNLeftTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNLeftTableVC.m; sourceTree = "<group>"; };
+		764F8ED121949CE0002B55DA /* LNMainTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNMainTableVC.m; sourceTree = "<group>"; };
+		764F8ED221949CE0002B55DA /* LNViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNViewController.h; sourceTree = "<group>"; };
+		76D7600021945EDD003BC3EC /* LNDrawerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNDrawerViewController.h; sourceTree = "<group>"; };
+		76D7600121945EDD003BC3EC /* LNDrawerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNDrawerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,16 +83,8 @@
 		76472CD4215B92F90006405B /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				76472CD7215B92F90006405B /* LNDrawerViewController.h */,
-				76472CD8215B92F90006405B /* LNDrawerViewController.m */,
-				76472CD6215B92F90006405B /* LNMainTableVC.h */,
-				76472CD9215B92F90006405B /* LNMainTableVC.m */,
-				76472CE4215B94E80006405B /* LNLeftTableVC.h */,
-				76472CE5215B94E80006405B /* LNLeftTableVC.m */,
-				76472CE7215B94FC0006405B /* LNRightTableVC.h */,
-				76472CE8215B94FC0006405B /* LNRightTableVC.m */,
-				76472CDA215B92F90006405B /* LNViewController.h */,
-				76472CD5215B92F90006405B /* LNViewController.m */,
+				76D75FFF21945EDD003BC3EC /* LNDrawerVC */,
+				764F8ECA21949CE0002B55DA /* LNTestVC */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -105,6 +97,30 @@
 				76472CDD215B92F90006405B /* main.m */,
 			);
 			path = Other;
+			sourceTree = "<group>";
+		};
+		764F8ECA21949CE0002B55DA /* LNTestVC */ = {
+			isa = PBXGroup;
+			children = (
+				764F8ECB21949CE0002B55DA /* LNRightTableVC.m */,
+				764F8ECC21949CE0002B55DA /* LNLeftTableVC.h */,
+				764F8ECD21949CE0002B55DA /* LNViewController.m */,
+				764F8ECE21949CE0002B55DA /* LNMainTableVC.h */,
+				764F8ECF21949CE0002B55DA /* LNRightTableVC.h */,
+				764F8ED021949CE0002B55DA /* LNLeftTableVC.m */,
+				764F8ED121949CE0002B55DA /* LNMainTableVC.m */,
+				764F8ED221949CE0002B55DA /* LNViewController.h */,
+			);
+			path = LNTestVC;
+			sourceTree = "<group>";
+		};
+		76D75FFF21945EDD003BC3EC /* LNDrawerVC */ = {
+			isa = PBXGroup;
+			children = (
+				76D7600021945EDD003BC3EC /* LNDrawerViewController.h */,
+				76D7600121945EDD003BC3EC /* LNDrawerViewController.m */,
+			);
+			path = LNDrawerVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,12 +193,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76472CE6215B94E80006405B /* LNLeftTableVC.m in Sources */,
-				76472CDF215B92F90006405B /* LNViewController.m in Sources */,
-				76472CE9215B94FC0006405B /* LNRightTableVC.m in Sources */,
-				76472CE0215B92F90006405B /* LNDrawerViewController.m in Sources */,
+				764F8ED521949CE0002B55DA /* LNLeftTableVC.m in Sources */,
+				764F8ED621949CE0002B55DA /* LNMainTableVC.m in Sources */,
+				764F8ED321949CE0002B55DA /* LNRightTableVC.m in Sources */,
 				76472CE2215B92F90006405B /* main.m in Sources */,
-				76472CE1215B92F90006405B /* LNMainTableVC.m in Sources */,
+				764F8ED421949CE0002B55DA /* LNViewController.m in Sources */,
+				76D7600221945EDD003BC3EC /* LNDrawerViewController.m in Sources */,
 				76472CE3215B92F90006405B /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

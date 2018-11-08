@@ -1,21 +1,8 @@
+//
+// 「Public_不知名开发者 | https://github.com/CoderLN | https://www.jianshu.com/u/fd745d76c816」
+//  各位厂友, 由于「时间 & 知识」有限, 总结的文章难免有「未全、不足」, 该模块将系统化学习, 后续「坚持新增文章, 替换、补充文章内容」.
+//
 
-//
-//  clockView.m
-//  手势解锁11.22
-//
-//  Created by LN on 16/11/22.
-//  Copyright © 2016年 Learning Point. All rights reserved.
-/*
- 1.手指监听
- 方法一:使用Touch触摸监听
- 
- 2.九宫格计算*+
- 
- 3.学写代码:
- 低耦合(控制器)
- 高内聚(方法)
- 抽方法(功能点,功能要单一性)
- */
 
 #import "ClockView.h"
 
@@ -66,7 +53,7 @@
 }
 
 // 2.设置子控件的frame
-// 九宫格计算*+
+// 九宫格计算
 - (void)layoutSubviews{
     [super layoutSubviews];
     
@@ -99,7 +86,7 @@
 
 #pragma mark - Touch触摸
 
-// 获取当前手指点*+//📚
+// 获取当前手指点 👣
 - (CGPoint)getCurrentPoint:(NSSet *)touches{
     
     UITouch *touch = [touches anyObject];
@@ -114,8 +101,8 @@
 - (UIButton *)btnRectContainsPoint:(CGPoint)point{
     
     for (UIButton *btn in self.subviews) {
-        // CGRectContainsPoint(btn.frame, point) 判断点在不在Rect范围内(BooL)*+
-        if (CGRectContainsPoint(btn.frame, point)) {//📚
+        // CGRectContainsPoint(btn.frame, point) 判断点在不在Rect范围内(BooL)
+        if (CGRectContainsPoint(btn.frame, point)) {// 👣
             // 让当前按钮成为选中状态
             //btn.selected = YES;
             return btn;
@@ -138,6 +125,7 @@
     }
     
 }
+
 // 触摸移动(手指移动时,按钮选中,连线到当前选中的按钮)
 - (void)touchesMoved:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
     // 1.获取当前手指所在的点*+
@@ -153,12 +141,13 @@
     [self setNeedsDisplay];
     self.curP = curP;
 }
+
 // 触摸结束(手指松开时,按钮取消选中状态,清空所有的连线)
 - (void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
     // 1.取消所有选中的按钮,查看选中按钮的顺序(拼接字符串)
     NSMutableString *str = [NSMutableString string];
     for (UIButton *btn in self.selectBtnArray) {
-        [str appendFormat:@"%ld",btn.tag];//📚拼接字符串
+        [str appendFormat:@"%ld",btn.tag];// 拼接字符串
         btn.selected = NO;
     }
     // 2.清空路径
@@ -184,8 +173,6 @@
         }
     }
     NSLog(@"选中按钮顺序为:%@",str);
-
-
 }
 
 - (void)drawRect:(CGRect)rect{
@@ -217,8 +204,6 @@
         // 3.绘制路径
         [path stroke];
     }
-    
-
 }
 @end
 

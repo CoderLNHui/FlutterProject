@@ -7,18 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7603608F1F9D7AD000735F7A /* NSString+String.m in Sources */ = {isa = PBXBuildFile; fileRef = 7603608E1F9D7AD000735F7A /* NSString+String.m */; };
-		763932991FA9A985001B39EF /* LNBasicUseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 763932981FA9A984001B39EF /* LNBasicUseViewController.m */; };
-		764D1FB91F9990010002C0BA /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 764D1FB81F9990010002C0BA /* UIView+Frame.m */; };
-		768DDA2E1F98B360002AB07D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 768DDA2D1F98B360002AB07D /* AppDelegate.m */; };
-		768DDA311F98B360002AB07D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 768DDA301F98B360002AB07D /* ViewController.m */; };
+		764F8F0F2194A818002B55DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 764F8F002194A817002B55DA /* main.m */; };
+		764F8F102194A818002B55DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 764F8F012194A817002B55DA /* AppDelegate.m */; };
+		764F8F112194A818002B55DA /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 764F8F032194A817002B55DA /* UIView+Frame.m */; };
+		764F8F122194A818002B55DA /* LNInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 764F8F062194A817002B55DA /* LNInputView.m */; };
+		764F8F132194A818002B55DA /* LNInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 764F8F072194A817002B55DA /* LNInputViewController.m */; };
+		764F8F152194A818002B55DA /* NSString+String.m in Sources */ = {isa = PBXBuildFile; fileRef = 764F8F0D2194A817002B55DA /* NSString+String.m */; };
 		768DDA341F98B360002AB07D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 768DDA321F98B360002AB07D /* Main.storyboard */; };
 		768DDA361F98B360002AB07D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 768DDA351F98B360002AB07D /* Assets.xcassets */; };
 		768DDA391F98B360002AB07D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 768DDA371F98B360002AB07D /* LaunchScreen.storyboard */; };
-		768DDA3C1F98B360002AB07D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 768DDA3B1F98B360002AB07D /* main.m */; };
-		768DDA461F98B360002AB07D /* LNInputAccessoryViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 768DDA451F98B360002AB07D /* LNInputAccessoryViewTests.m */; };
-		768DDA511F98B360002AB07D /* LNInputAccessoryViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 768DDA501F98B360002AB07D /* LNInputAccessoryViewUITests.m */; };
-		76E010E61FAB1B840098D7E6 /* LNInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E010E51FAB1B200098D7E6 /* LNInputView.m */; };
 		ABEF5152C2373AFEFEDDFBE2 /* libPods-LNInputAccessoryView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 462E2DA15A0D834A769EF38D /* libPods-LNInputAccessoryView.a */; };
 /* End PBXBuildFile section */
 
@@ -43,30 +40,24 @@
 		364D08F0F81AA860E4BC4357 /* Pods-LNInputAccessoryView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LNInputAccessoryView.release.xcconfig"; path = "Pods/Target Support Files/Pods-LNInputAccessoryView/Pods-LNInputAccessoryView.release.xcconfig"; sourceTree = "<group>"; };
 		462E2DA15A0D834A769EF38D /* libPods-LNInputAccessoryView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LNInputAccessoryView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		48C26068A37C0DA53A6DF227 /* Pods-LNInputAccessoryView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LNInputAccessoryView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LNInputAccessoryView/Pods-LNInputAccessoryView.debug.xcconfig"; sourceTree = "<group>"; };
-		7603608D1F9D7AD000735F7A /* NSString+String.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+String.h"; sourceTree = "<group>"; };
-		7603608E1F9D7AD000735F7A /* NSString+String.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+String.m"; sourceTree = "<group>"; };
-		763932971FA9A984001B39EF /* LNBasicUseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNBasicUseViewController.h; sourceTree = "<group>"; };
-		763932981FA9A984001B39EF /* LNBasicUseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNBasicUseViewController.m; sourceTree = "<group>"; };
-		764D1FB71F9990010002C0BA /* UIView+Frame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
-		764D1FB81F9990010002C0BA /* UIView+Frame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		764F8EFF2194A817002B55DA /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		764F8F002194A817002B55DA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		764F8F012194A817002B55DA /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		764F8F032194A817002B55DA /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		764F8F052194A817002B55DA /* LNInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNInputView.h; sourceTree = "<group>"; };
+		764F8F062194A817002B55DA /* LNInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNInputView.m; sourceTree = "<group>"; };
+		764F8F072194A817002B55DA /* LNInputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNInputViewController.m; sourceTree = "<group>"; };
+		764F8F082194A817002B55DA /* NSString+String.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+String.h"; sourceTree = "<group>"; };
+		764F8F0C2194A817002B55DA /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		764F8F0D2194A817002B55DA /* NSString+String.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+String.m"; sourceTree = "<group>"; };
+		764F8F0E2194A817002B55DA /* LNInputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNInputViewController.h; sourceTree = "<group>"; };
 		768DDA291F98B360002AB07D /* LNInputAccessoryView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LNInputAccessoryView.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		768DDA2C1F98B360002AB07D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		768DDA2D1F98B360002AB07D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		768DDA2F1F98B360002AB07D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		768DDA301F98B360002AB07D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		768DDA331F98B360002AB07D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		768DDA351F98B360002AB07D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		768DDA381F98B360002AB07D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		768DDA3A1F98B360002AB07D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		768DDA3B1F98B360002AB07D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		768DDA411F98B360002AB07D /* LNInputAccessoryViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LNInputAccessoryViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		768DDA451F98B360002AB07D /* LNInputAccessoryViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNInputAccessoryViewTests.m; sourceTree = "<group>"; };
-		768DDA471F98B360002AB07D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		768DDA4C1F98B360002AB07D /* LNInputAccessoryViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LNInputAccessoryViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		768DDA501F98B360002AB07D /* LNInputAccessoryViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNInputAccessoryViewUITests.m; sourceTree = "<group>"; };
-		768DDA521F98B360002AB07D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		76E010E41FAB1B200098D7E6 /* LNInputView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNInputView.h; sourceTree = "<group>"; };
-		76E010E51FAB1B200098D7E6 /* LNInputView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNInputView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,21 +103,35 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		763932961FA9A984001B39EF /* UITextView属性和方法基本使用 */ = {
+		764F8EFE2194A817002B55DA /* Other */ = {
 			isa = PBXGroup;
 			children = (
-				763932971FA9A984001B39EF /* LNBasicUseViewController.h */,
-				763932981FA9A984001B39EF /* LNBasicUseViewController.m */,
+				764F8F082194A817002B55DA /* NSString+String.h */,
+				764F8F0D2194A817002B55DA /* NSString+String.m */,
+				764F8F0C2194A817002B55DA /* UIView+Frame.h */,
+				764F8F032194A817002B55DA /* UIView+Frame.m */,
+				764F8EFF2194A817002B55DA /* AppDelegate.h */,
+				764F8F012194A817002B55DA /* AppDelegate.m */,
+				764F8F002194A817002B55DA /* main.m */,
 			);
-			path = "UITextView属性和方法基本使用";
+			path = Other;
+			sourceTree = "<group>";
+		};
+		764F8F042194A817002B55DA /* UITextView占位文字颜色&自适应高度 */ = {
+			isa = PBXGroup;
+			children = (
+				764F8F052194A817002B55DA /* LNInputView.h */,
+				764F8F062194A817002B55DA /* LNInputView.m */,
+				764F8F0E2194A817002B55DA /* LNInputViewController.h */,
+				764F8F072194A817002B55DA /* LNInputViewController.m */,
+			);
+			path = "UITextView占位文字颜色&自适应高度";
 			sourceTree = "<group>";
 		};
 		768DDA201F98B360002AB07D = {
 			isa = PBXGroup;
 			children = (
 				768DDA2B1F98B360002AB07D /* LNInputAccessoryView */,
-				768DDA441F98B360002AB07D /* LNInputAccessoryViewTests */,
-				768DDA4F1F98B360002AB07D /* LNInputAccessoryViewUITests */,
 				768DDA2A1F98B360002AB07D /* Products */,
 				2030752F7EE51664A13C80EE /* Pods */,
 				60893249BAC19773BB99C581 /* Frameworks */,
@@ -146,50 +151,14 @@
 		768DDA2B1F98B360002AB07D /* LNInputAccessoryView */ = {
 			isa = PBXGroup;
 			children = (
-				768DDA2C1F98B360002AB07D /* AppDelegate.h */,
-				768DDA2D1F98B360002AB07D /* AppDelegate.m */,
-				768DDA2F1F98B360002AB07D /* ViewController.h */,
-				768DDA301F98B360002AB07D /* ViewController.m */,
+				764F8F042194A817002B55DA /* UITextView占位文字颜色&自适应高度 */,
+				764F8EFE2194A817002B55DA /* Other */,
 				768DDA321F98B360002AB07D /* Main.storyboard */,
 				768DDA351F98B360002AB07D /* Assets.xcassets */,
 				768DDA371F98B360002AB07D /* LaunchScreen.storyboard */,
 				768DDA3A1F98B360002AB07D /* Info.plist */,
-				768DDA3B1F98B360002AB07D /* main.m */,
-				764D1FB71F9990010002C0BA /* UIView+Frame.h */,
-				764D1FB81F9990010002C0BA /* UIView+Frame.m */,
-				7603608D1F9D7AD000735F7A /* NSString+String.h */,
-				7603608E1F9D7AD000735F7A /* NSString+String.m */,
-				76E010E31FAB1B200098D7E6 /* UITextView占位文字颜色&自适应高度 */,
-				763932961FA9A984001B39EF /* UITextView属性和方法基本使用 */,
 			);
 			path = LNInputAccessoryView;
-			sourceTree = "<group>";
-		};
-		768DDA441F98B360002AB07D /* LNInputAccessoryViewTests */ = {
-			isa = PBXGroup;
-			children = (
-				768DDA451F98B360002AB07D /* LNInputAccessoryViewTests.m */,
-				768DDA471F98B360002AB07D /* Info.plist */,
-			);
-			path = LNInputAccessoryViewTests;
-			sourceTree = "<group>";
-		};
-		768DDA4F1F98B360002AB07D /* LNInputAccessoryViewUITests */ = {
-			isa = PBXGroup;
-			children = (
-				768DDA501F98B360002AB07D /* LNInputAccessoryViewUITests.m */,
-				768DDA521F98B360002AB07D /* Info.plist */,
-			);
-			path = LNInputAccessoryViewUITests;
-			sourceTree = "<group>";
-		};
-		76E010E31FAB1B200098D7E6 /* UITextView占位文字颜色&自适应高度 */ = {
-			isa = PBXGroup;
-			children = (
-				76E010E41FAB1B200098D7E6 /* LNInputView.h */,
-				76E010E51FAB1B200098D7E6 /* LNInputView.m */,
-			);
-			path = "UITextView占位文字颜色&自适应高度";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -376,13 +345,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76E010E61FAB1B840098D7E6 /* LNInputView.m in Sources */,
-				764D1FB91F9990010002C0BA /* UIView+Frame.m in Sources */,
-				768DDA311F98B360002AB07D /* ViewController.m in Sources */,
-				768DDA3C1F98B360002AB07D /* main.m in Sources */,
-				7603608F1F9D7AD000735F7A /* NSString+String.m in Sources */,
-				768DDA2E1F98B360002AB07D /* AppDelegate.m in Sources */,
-				763932991FA9A985001B39EF /* LNBasicUseViewController.m in Sources */,
+				764F8F112194A818002B55DA /* UIView+Frame.m in Sources */,
+				764F8F122194A818002B55DA /* LNInputView.m in Sources */,
+				764F8F102194A818002B55DA /* AppDelegate.m in Sources */,
+				764F8F152194A818002B55DA /* NSString+String.m in Sources */,
+				764F8F0F2194A818002B55DA /* main.m in Sources */,
+				764F8F132194A818002B55DA /* LNInputViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,7 +358,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				768DDA461F98B360002AB07D /* LNInputAccessoryViewTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,7 +365,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				768DDA511F98B360002AB07D /* LNInputAccessoryViewUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

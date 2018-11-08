@@ -1,11 +1,13 @@
 //
-//  clockView.h
-//  手势解锁11.22
-//
-//  Created by LN on 16/11/22.
-//  Copyright © 2016年 Learning Point. All rights reserved.
+// 「Public_不知名开发者 | https://github.com/CoderLN | https://www.jianshu.com/u/fd745d76c816」
+//  各位厂友, 由于「时间 & 知识」有限, 总结的文章难免有「未全、不足」, 该模块将系统化学习, 后续「坚持新增文章, 替换、补充文章内容」.
 //
 
+
+/*
+ 1.手指监听: 使用Touch触摸监听
+ 2.九宫格计算 
+ */
 #import <UIKit/UIKit.h>
 
 @interface ClockView : UIView
