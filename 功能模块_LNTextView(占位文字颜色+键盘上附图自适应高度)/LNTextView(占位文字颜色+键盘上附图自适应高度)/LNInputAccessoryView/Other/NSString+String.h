@@ -2,8 +2,8 @@
 //  NSString+String.h
 //  LNInputAccessoryView
 //
-//  Created by LN on 2017/10/23.
-//  Copyright © 2017年 WechatCodeidea. All rights reserved.
+//  Created by LN on 2016/10/23.
+//  Copyright © 2016年 Public_CoderLN. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

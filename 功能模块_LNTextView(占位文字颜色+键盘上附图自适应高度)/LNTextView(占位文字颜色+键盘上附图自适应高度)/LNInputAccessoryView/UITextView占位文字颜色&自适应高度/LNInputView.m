@@ -2,8 +2,8 @@
 //  LNInputView.m
 //  LNInputAccessoryView
 //
-//  Created by LN on 2017/10/24.
-//  Copyright © 2017年 WechatCodeidea. All rights reserved.
+//  Created by LN on 2016/10/24.
+//  Copyright © 2016年 Public_CoderLN. All rights reserved.
 //
 /**
  UITextView占位文字颜色+键盘上附图自适应高度
