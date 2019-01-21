@@ -1,6 +1,8 @@
 /*
  * File:  UITextField+TextField.m
- * Public_CoderLN
+ *「Public_不知名开发者 | https://github.com/CoderLN | https://www.jianshu.com/u/fd745d76c816」
+ *
+ * 各位厂友, 由于「时间 & 知识」有限, 总结的文章难免有「未全、不足」, 该模块将系统化学习, 后续「坚持新增文章, 替换、补充文章内容」
  *
  *【Runtime 交换方法 -> textField.placeholderColor】
  */
@@ -15,7 +17,7 @@
 - (void)setPlaceholderColor:(UIColor *)placeholderColor
 {
     
-    // 设置 runtime给系统的类【添加成员属性】,保存属性
+    // runtime给系统的类,添加成员属性(关联属性),保存属性
     objc_setAssociatedObject(self, @"placeholderColor", placeholderColor, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
     
     // 获取占位文字label控件
@@ -35,8 +37,8 @@
 /*
  *【设置占位文字 和 文字颜色】
  */
-- (void)setLN_Placeholder:(NSString *)placeholder {
-    [self setLN_Placeholder:placeholder];
+- (void)ln_setPlaceholder:(NSString *)placeholder {
+    [self ln_setPlaceholder:placeholder];
     
     self.placeholderColor = self.placeholderColor;
 }
@@ -49,7 +51,7 @@
 {
     //【class_getInstanceMethod 获取方法】
     Method setPlaceholderMethod = class_getInstanceMethod(self, @selector(setPlaceholder:));
-    Method setLN_PlaceholderMethod = class_getInstanceMethod(self, @selector(setLN_Placeholder:));
+    Method setLN_PlaceholderMethod = class_getInstanceMethod(self, @selector(ln_setPlaceholder:));
     
     //【交换方法】
     method_exchangeImplementations(setPlaceholderMethod, setLN_PlaceholderMethod);

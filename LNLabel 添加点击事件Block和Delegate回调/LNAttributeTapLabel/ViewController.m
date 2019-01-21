@@ -1,14 +1,7 @@
 /*
  * File:  ViewController.m
- * Framework:  UIKit
- * Author:  白开水ln（https://github.com/CustomPBWaters）
- *
- * Created by 【WechatPublic-Codeidea】 on Elegant programming16.
- * Copyright © Reprinted（https://githubidea.github.io）Please indicate the source.Mustbe.
- *
- * JaneBook:  http://www.jianshu.com/u/fd745d76c816
- *
- * @HEADER_WELCOME YOU TO JOIN_GitHub & Codeidea_END@
+ *「Public_不知名开发者 | https://github.com/CoderLN | https://www.jianshu.com/u/fd745d76c816」
+ * 各位厂友, 由于「时间 & 知识」有限, 总结的文章难免有「未全、不足」, 该模块将系统化学习, 后续「坚持新增文章, 替换、补充文章内容」.
  */
 
 #import "ViewController.h"
@@ -41,7 +34,7 @@ delegate:nil cancelButtonTitle:(buttonName) otherButtonTitles: nil];\
 //
 - (void)setupAttributeBlcokTapLabel
 {
-    NSString * str = @"你好，我是白开水ln，欢迎关注我的微众:Codeidea";
+    NSString * str = @"你好，我是不知名开发者，欢迎关注我的Public_CoderLN";
 
     NSMutableAttributedString * attriStr = [[NSMutableAttributedString alloc] initWithString:str];
     [attriStr addAttribute:NSFontAttributeName value:[UIFont systemFontOfSize:16.f] range:NSMakeRange(0, str.length)];
@@ -52,7 +45,7 @@ delegate:nil cancelButtonTitle:(buttonName) otherButtonTitles: nil];\
     attributeTapLabel.attributedText = attriStr;
     [self.view addSubview:attributeTapLabel];
     
-    [attributeTapLabel yb_addAttributeTapActionWithStrings:@[@"白开水ln",@"微众:Codeidea"] tapClicked:^(NSString *string, NSRange range, NSInteger index) {
+    [attributeTapLabel yb_addAttributeTapActionWithStrings:@[@"不知名开发者",@"Public_CoderLN"] tapClicked:^(NSString *string, NSRange range, NSInteger index) {
         NSString * message = [NSString stringWithFormat:@"\n Block 点击了“%@”字符\nrange: %@\nindex: %ld",string,NSStringFromRange(range),index];
         LNAlertShow(message, @"取消");
         

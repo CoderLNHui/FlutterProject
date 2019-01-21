@@ -2,8 +2,8 @@
 //  LNInputView.h
 //  LNInputAccessoryView
 //
-//  Created by LN on 2016/10/24.
-//  Copyright © 2016年 Public_CoderLN. All rights reserved.
+// 「Public|Jshu_不知名开发者 | https://github.com/CoderLN」
+//  各位厂友, 由于「时间 & 知识」有限, 总结的文章难免有「未全、不足」, 该模块将系统化学习, 后续「坚持新增文章, 替换、补充文章内容」
 //
 /**
  UITextView占位文字颜色+键盘上附图自适应高度
@@ -53,7 +53,7 @@
         _textView = [[LNInputView alloc] init];
         
         // 设置文本框占位文字
-        _textView.placeholder = @"wechat - Codeidea";
+        _textView.placeholder = @"Public_不知名开发者";
         _textView.placeholderColor = [UIColor redColor];
         
         

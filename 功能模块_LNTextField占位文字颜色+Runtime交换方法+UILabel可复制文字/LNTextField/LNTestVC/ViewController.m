@@ -1,6 +1,6 @@
 //
 //  ViewController.m
-// 「 Public_不知名开发者 | https://github.com/CoderLN 」
+// 「Public|Jshu_不知名开发者 | https://github.com/CoderLN」
 //  各位厂友, 由于「时间 & 知识」有限, 总结的文章难免有「未全、不足」, 该模块将系统化学习, 后续「坚持新增文章, 替换、补充文章内容」.
 //
 
@@ -50,7 +50,7 @@
         _textField.backgroundColor = [UIColor grayColor];
         _textField.borderStyle = UITextBorderStyleRoundedRect;
         _textField.font = [UIFont systemFontOfSize:16.f];
-        _textField.placeholder = @"Wechat-Codeidea 码思想圈欢迎你 ~";
+        _textField.placeholder = @"Public_不知名开发者";
         //_textField.textColor = [UIColor whiteColor];
         _textField.delegate = self;
 //        _textField.keyboardType = UIKeyboardTypeNumberPad;

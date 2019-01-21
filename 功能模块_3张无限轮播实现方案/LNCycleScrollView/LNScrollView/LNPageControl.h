@@ -11,9 +11,6 @@
 @interface LNPageControl : UIPageControl
 
 @property (nonatomic, assign) CGFloat pageWH;
-
-
 @property (nonatomic, strong) UIButton * btnIndex;
-
 
 @end
