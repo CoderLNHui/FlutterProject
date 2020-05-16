@@ -1,22 +1,22 @@
-## Encapsulation-of-thinking
+##  
 
->本工程将会持续更新一些「小的功能模块实现代码思路」，建议先 Star 收藏，在进行阅读 ！
+>本仓库将会持续更新一些「小的功能模块，实现思路」 ，重点是怎么一步步抽取封装
 
 
-## The function point
+## Function module
 
-1. 新闻滚动条  
+👣 新闻滚动条  
 
-详解：[博文](https://custompbwaters.github.io/2016/02/20/封装思维/iOS封装思维1—新闻滚动条/)
+详解：博文
 
 效果图：  
 ![封装新闻滚动条.gif](http://upload-images.jianshu.io/upload_images/2230763-352aa142cc6cf27d.gif?imageMogr2/auto-orient/strip)
 
 
 
-2.循环利用tableView
+👣 循环利用tableView
 
-详解：[博文](http://upload-images.jianshu.io/upload_images/2230763-93b83d5b7a7b0a49.gif?imageMogr2/auto-orient/strip)
+详解：博文
 
 效果图：
 
@@ -24,9 +24,9 @@
 
 
 
-3.无限轮播实现（3张 || 2张）
+👣 无限轮播实现（3张 || 2张）
 
-详解：[博文](http://upload-images.jianshu.io/upload_images/2230763-93b83d5b7a7b0a49.gif?imageMogr2/auto-orient/strip)
+详解：博文
 
 
 效果图：
@@ -35,9 +35,9 @@
 
 
 
-4.Masonry使用总结
+👣 Masonry使用总结
 
-详解：[博文](http://upload-images.jianshu.io/upload_images/2230763-93b83d5b7a7b0a49.gif?imageMogr2/auto-orient/strip)
+详解：博文
 
 效果图：
 
@@ -47,9 +47,9 @@
 
 
 
-5.基于AVPlayer自定义播放器
+👣 基于AVPlayer自定义播放器
 
-详解：[博文](http://upload-images.jianshu.io/upload_images/2230763-93b83d5b7a7b0a49.gif?imageMogr2/auto-orient/strip)
+详解：博文
 
 效果图：
 
@@ -60,9 +60,9 @@
 
 
 
-6.给文本Label添加点击事件Block & Delegate 回调
+👣 给文本Label添加点击事件Block & Delegate 回调
 
-详解：[博文](http://upload-images.jianshu.io/upload_images/2230763-93b83d5b7a7b0a49.gif?imageMogr2/auto-orient/strip)
+详解：博文
 
 效果图：
 
@@ -72,9 +72,9 @@
 
 
 
-7.SQLite3
+👣 SQLite3
 
-详解：[博文]( )
+详解：博文
 
 效果图：
 
@@ -84,9 +84,7 @@
 
 
 
-
-8. 未完待续   
-
+ 
 **未完.............待续**
  
 
